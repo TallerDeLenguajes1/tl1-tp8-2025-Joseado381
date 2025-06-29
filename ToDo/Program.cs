@@ -1,5 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-List<Tareas> TareasPemnidentes = [];
-List<Tareas> TareasCompletadas = [];
+﻿using System;
+using TareaToDo;

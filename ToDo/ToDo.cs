@@ -1,10 +1,19 @@
-namespace TareaToDo;
-
-public class TareaToDo
+namespace TareaToDo
 {
-    public int TareaId { get; set; }
-    public string Descripcion { get; set; }
-    public int Duracion { get; set; }
+    public class TareaToDo
+    {
+        public enum TareaEstado
+        {
+            pendiente,
+            completado
+        }
+
+        public int TareaID {get ; set;}
+        public string Descripcion {get ; set;}
+        public int Duracion {get ; set;}
+
+    }
+
 }
 
-List<Tareas> TareasPemnidentes = [];
+
